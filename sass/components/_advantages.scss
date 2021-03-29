@@ -1,0 +1,21 @@
+.advantages__icon-wrapper {
+   margin-bottom: 30px;
+   padding: 25px 100px;
+   border-radius: 4px;
+   background-color: $bg-team-color;
+}
+
+.advantages__name {
+   margin-bottom: 10px;
+
+   font-weight: 700;
+   font-size: $font-size-main;
+   line-height: 1.14;
+   text-transform: uppercase;
+}
+
+.advantages__text {
+   color: $text-secondary-color;
+   font-weight: 400;
+   line-height: 1.71;
+}

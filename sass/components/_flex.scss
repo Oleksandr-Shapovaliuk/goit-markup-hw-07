@@ -1,0 +1,27 @@
+.flex {
+   display: flex;
+}
+
+.flex__item {
+
+   &:not(:last-child) {
+   margin-right: 30px;
+   }
+
+   &--2col {
+   flex-basis: calc((100% - 180px) / 6);
+   }
+
+   &--3col {
+   flex-basis: calc((100% - 120px) / 4);
+   }
+
+   &--4col {
+   flex-basis: calc((100% - 90px) / 3);
+   }
+
+   &--6col {
+   flex-basis: calc((100% - 60px) / 2);
+   }
+
+}
