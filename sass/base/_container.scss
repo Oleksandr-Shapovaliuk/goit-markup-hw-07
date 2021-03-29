@@ -1,0 +1,6 @@
+.container {
+   width: $width-container;
+   @extend %blockCentering;
+   padding-left: 15px;
+   padding-right: 15px;
+}
