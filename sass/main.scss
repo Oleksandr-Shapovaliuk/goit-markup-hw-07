@@ -3,12 +3,12 @@
 @import "./utils/placeholders";
 @import "./utils/visually-hidden";
 @import "./utils/animate";
+@import "./utils/flex";
+@import "./utils/grid";
 
 @import "./base/base-reset";
 @import "./base/container";
 
-@import "./components/flex";
-@import "./components/grid";
 @import "./components/button";
 @import "./components/logo";
 @import "./components/social-list";
