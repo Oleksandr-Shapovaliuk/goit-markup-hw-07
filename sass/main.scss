@@ -2,24 +2,22 @@
 @import "./utils/mixin";
 @import "./utils/placeholders";
 @import "./utils/visually-hidden";
+@import "./utils/animate";
+
 @import "./base/base-reset";
 @import "./base/container";
-@import "./utils/animate";
+
 @import "./components/flex";
 @import "./components/grid";
-@import "./components/page-section";
 @import "./components/button";
 @import "./components/logo";
 @import "./components/social-list";
-@import "./components/page-header";
 @import "./components/nav-site";
 @import "./components/contact";
-@import "./components/page-hero";
 @import "./components/advantages";
 @import "./components/about-us";
 @import "./components/team-member";
 @import "./components/clients";
-@import "./components/page-footer";
 @import "./components/address";
 @import "./components/distribution-form";
 @import "./components/filter";
@@ -30,6 +28,11 @@
 @import "./components/form-field";
 @import "./components/form-comment";
 @import "./components/form-agree";
+
+@import "./layout/page-header";
+@import "./layout/page-hero";
+@import "./layout/page-section";
+@import "./layout/page-footer";
 
 
 

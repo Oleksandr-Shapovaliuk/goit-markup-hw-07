@@ -1,0 +1,21 @@
+.page-header {
+   border-bottom: $border-header-footer;
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+
+.page-header__container {
+   display: flex;
+}
+
+.page-header__nav {
+   @include alignmentFlex(flex, flex-start, center);
+}
+
+.page-header__logo {
+   margin-right: 95px;
+}
+
+.page-header__contact {
+   margin-left: auto;
+}
